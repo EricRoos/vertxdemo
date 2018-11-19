@@ -1,0 +1,15 @@
+redroosterdevelopment/vertxdemo/MainVerticle.class
+redroosterdevelopment/vertxdemo/models/Post.class
+redroosterdevelopment/vertxdemo/api/V1.class
+redroosterdevelopment/vertxdemo/api/Endpoint.class
+redroosterdevelopment/vertxdemo/views/posts/Show.class
+redroosterdevelopment/vertxdemo/api/EndpointFactory$1.class
+redroosterdevelopment/vertxdemo/controllers/Controller.class
+redroosterdevelopment/vertxdemo/db/Pool.class
+redroosterdevelopment/vertxdemo/views/Viewable.class
+redroosterdevelopment/vertxdemo/api/EndpointFactory.class
+redroosterdevelopment/vertxdemo/repositories/PostRepository.class
+redroosterdevelopment/vertxdemo/controllers/PostsController.class
+redroosterdevelopment/vertxdemo/RespondsWith.class
+redroosterdevelopment/vertxdemo/views/posts/Index.class
+redroosterdevelopment/vertxdemo/api/WebAPI.class

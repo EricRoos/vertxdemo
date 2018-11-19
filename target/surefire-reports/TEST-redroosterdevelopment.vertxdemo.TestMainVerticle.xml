@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="redroosterdevelopment.vertxdemo.TestMainVerticle" time="10.262" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/eroos/Downloads/vertxdemo/target/test-classes:/Users/eroos/Downloads/vertxdemo/target/classes:/Users/eroos/.m2/repository/io/vertx/vertx-mysql-postgresql-client/3.5.4/vertx-mysql-postgresql-client-3.5.4.jar:/Users/eroos/.m2/repository/io/vertx/vertx-sql-common/3.5.3/vertx-sql-common-3.5.3.jar:/Users/eroos/.m2/repository/org/scala-lang/scala-library/2.12.4/scala-library-2.12.4.jar:/Users/eroos/.m2/repository/com/github/mauricio/postgresql-async_2.12/0.2.21/postgresql-async_2.12-0.2.21.jar:/Users/eroos/.m2/repository/com/github/mauricio/db-async-common_2.12/0.2.21/db-async-common_2.12-0.2.21.jar:/Users/eroos/.m2/repository/joda-time/joda-time/2.9.7/joda-time-2.9.7.jar:/Users/eroos/.m2/repository/org/joda/joda-convert/1.8.1/joda-convert-1.8.1.jar:/Users/eroos/.m2/repository/org/javassist/javassist/3.21.0-GA/javassist-3.21.0-GA.jar:/Users/eroos/.m2/repository/com/github/mauricio/mysql-async_2.12/0.2.21/mysql-async_2.12-0.2.21.jar:/Users/eroos/.m2/repository/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar:/Users/eroos/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/eroos/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/eroos/.m2/repository/io/vertx/vertx-core/3.5.3/vertx-core-3.5.3.jar:/Users/eroos/.m2/repository/io/netty/netty-common/4.1.19.Final/netty-common-4.1.19.Final.jar:/Users/eroos/.m2/repository/io/netty/netty-buffer/4.1.19.Final/netty-buffer-4.1.19.Final.jar:/Users/eroos/.m2/repository/io/netty/netty-transport/4.1.19.Final/netty-transport-4.1.19.Final.jar:/Users/eroos/.m2/repository/io/netty/netty-handler/4.1.19.Final/netty-handler-4.1.19.Final.jar:/Users/eroos/.m2/repository/io/netty/netty-codec/4.1.19.Final/netty-codec-4.1.19.Final.jar:/Users/eroos/.m2/repository/io/netty/netty-handler-proxy/4.1.19.Final/netty-handler-proxy-4.1.19.Final.jar:/Users/eroos/.m2/repository/io/netty/netty-codec-socks/4.1.19.Final/netty-codec-socks-4.1.19.Final.jar:/Users/eroos/.m2/repository/io/netty/netty-codec-http/4.1.19.Final/netty-codec-http-4.1.19.Final.jar:/Users/eroos/.m2/repository/io/netty/netty-codec-http2/4.1.19.Final/netty-codec-http2-4.1.19.Final.jar:/Users/eroos/.m2/repository/io/netty/netty-resolver/4.1.19.Final/netty-resolver-4.1.19.Final.jar:/Users/eroos/.m2/repository/io/netty/netty-resolver-dns/4.1.19.Final/netty-resolver-dns-4.1.19.Final.jar:/Users/eroos/.m2/repository/io/netty/netty-codec-dns/4.1.19.Final/netty-codec-dns-4.1.19.Final.jar:/Users/eroos/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.5/jackson-core-2.9.5.jar:/Users/eroos/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.5/jackson-databind-2.9.5.jar:/Users/eroos/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.5/jackson-annotations-2.9.5.jar:/Users/eroos/.m2/repository/io/vertx/vertx-web/3.5.3/vertx-web-3.5.3.jar:/Users/eroos/.m2/repository/io/vertx/vertx-auth-common/3.5.3/vertx-auth-common-3.5.3.jar:/Users/eroos/.m2/repository/io/vertx/vertx-bridge-common/3.5.3/vertx-bridge-common-3.5.3.jar:/Users/eroos/.m2/repository/io/vertx/vertx-junit5/3.5.3/vertx-junit5-3.5.3.jar:/Users/eroos/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.2.0/junit-jupiter-api-5.2.0.jar:/Users/eroos/.m2/repository/org/opentest4j/opentest4j/1.1.0/opentest4j-1.1.0.jar:/Users/eroos/.m2/repository/org/junit/platform/junit-platform-commons/1.2.0/junit-platform-commons-1.2.0.jar:/Users/eroos/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.2.0/junit-jupiter-params-5.2.0.jar:/Users/eroos/.m2/repository/org/junit/platform/junit-platform-launcher/1.2.0/junit-platform-launcher-1.2.0.jar:/Users/eroos/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/Users/eroos/.m2/repository/org/junit/platform/junit-platform-engine/1.2.0/junit-platform-engine-1.2.0.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/eroos/Downloads/vertxdemo/target/surefire/surefirebooter1219842255044255662.jar /Users/eroos/Downloads/vertxdemo/target/surefire 2018-11-18T17-40-25_951-jvmRun1 surefire5016403231815864115tmp surefire_01338736905722519861tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="surefire.test.class.path" value="/Users/eroos/Downloads/vertxdemo/target/test-classes:/Users/eroos/Downloads/vertxdemo/target/classes:/Users/eroos/.m2/repository/io/vertx/vertx-mysql-postgresql-client/3.5.4/vertx-mysql-postgresql-client-3.5.4.jar:/Users/eroos/.m2/repository/io/vertx/vertx-sql-common/3.5.3/vertx-sql-common-3.5.3.jar:/Users/eroos/.m2/repository/org/scala-lang/scala-library/2.12.4/scala-library-2.12.4.jar:/Users/eroos/.m2/repository/com/github/mauricio/postgresql-async_2.12/0.2.21/postgresql-async_2.12-0.2.21.jar:/Users/eroos/.m2/repository/com/github/mauricio/db-async-common_2.12/0.2.21/db-async-common_2.12-0.2.21.jar:/Users/eroos/.m2/repository/joda-time/joda-time/2.9.7/joda-time-2.9.7.jar:/Users/eroos/.m2/repository/org/joda/joda-convert/1.8.1/joda-convert-1.8.1.jar:/Users/eroos/.m2/repository/org/javassist/javassist/3.21.0-GA/javassist-3.21.0-GA.jar:/Users/eroos/.m2/repository/com/github/mauricio/mysql-async_2.12/0.2.21/mysql-async_2.12-0.2.21.jar:/Users/eroos/.m2/repository/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.jar:/Users/eroos/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/eroos/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/eroos/.m2/repository/io/vertx/vertx-core/3.5.3/vertx-core-3.5.3.jar:/Users/eroos/.m2/repository/io/netty/netty-common/4.1.19.Final/netty-common-4.1.19.Final.jar:/Users/eroos/.m2/repository/io/netty/netty-buffer/4.1.19.Final/netty-buffer-4.1.19.Final.jar:/Users/eroos/.m2/repository/io/netty/netty-transport/4.1.19.Final/netty-transport-4.1.19.Final.jar:/Users/eroos/.m2/repository/io/netty/netty-handler/4.1.19.Final/netty-handler-4.1.19.Final.jar:/Users/eroos/.m2/repository/io/netty/netty-codec/4.1.19.Final/netty-codec-4.1.19.Final.jar:/Users/eroos/.m2/repository/io/netty/netty-handler-proxy/4.1.19.Final/netty-handler-proxy-4.1.19.Final.jar:/Users/eroos/.m2/repository/io/netty/netty-codec-socks/4.1.19.Final/netty-codec-socks-4.1.19.Final.jar:/Users/eroos/.m2/repository/io/netty/netty-codec-http/4.1.19.Final/netty-codec-http-4.1.19.Final.jar:/Users/eroos/.m2/repository/io/netty/netty-codec-http2/4.1.19.Final/netty-codec-http2-4.1.19.Final.jar:/Users/eroos/.m2/repository/io/netty/netty-resolver/4.1.19.Final/netty-resolver-4.1.19.Final.jar:/Users/eroos/.m2/repository/io/netty/netty-resolver-dns/4.1.19.Final/netty-resolver-dns-4.1.19.Final.jar:/Users/eroos/.m2/repository/io/netty/netty-codec-dns/4.1.19.Final/netty-codec-dns-4.1.19.Final.jar:/Users/eroos/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.5/jackson-core-2.9.5.jar:/Users/eroos/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.5/jackson-databind-2.9.5.jar:/Users/eroos/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.5/jackson-annotations-2.9.5.jar:/Users/eroos/.m2/repository/io/vertx/vertx-web/3.5.3/vertx-web-3.5.3.jar:/Users/eroos/.m2/repository/io/vertx/vertx-auth-common/3.5.3/vertx-auth-common-3.5.3.jar:/Users/eroos/.m2/repository/io/vertx/vertx-bridge-common/3.5.3/vertx-bridge-common-3.5.3.jar:/Users/eroos/.m2/repository/io/vertx/vertx-junit5/3.5.3/vertx-junit5-3.5.3.jar:/Users/eroos/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.2.0/junit-jupiter-api-5.2.0.jar:/Users/eroos/.m2/repository/org/opentest4j/opentest4j/1.1.0/opentest4j-1.1.0.jar:/Users/eroos/.m2/repository/org/junit/platform/junit-platform-commons/1.2.0/junit-platform-commons-1.2.0.jar:/Users/eroos/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.2.0/junit-jupiter-params-5.2.0.jar:/Users/eroos/.m2/repository/org/junit/platform/junit-platform-launcher/1.2.0/junit-platform-launcher-1.2.0.jar:/Users/eroos/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/Users/eroos/.m2/repository/org/junit/platform/junit-platform-engine/1.2.0/junit-platform-engine-1.2.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/eroos"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/eroos/Downloads/vertxdemo"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/eroos/Downloads/vertxdemo/target/surefire/surefirebooter1219842255044255662.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_144-b01"/>
+    <property name="user.name" value="eroos"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.11.6"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/eroos/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/fz/dcd6j9490tl61cz2sv8ysnmnvxnjmt/T/"/>
+    <property name="java.version" value="1.8.0_144"/>
+    <property name="user.dir" value="/Users/eroos/Downloads/vertxdemo"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/eroos/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.144-b01"/>
+    <property name="java.ext.dirs" value="/Users/eroos/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="start_http_server{Vertx, VertxTestContext}" classname="redroosterdevelopment.vertxdemo.TestMainVerticle" time="10.258">
+    <error message="The test execution timed out" type="java.util.concurrent.TimeoutException">java.util.concurrent.TimeoutException: The test execution timed out
+</error>
+    <system-out><![CDATA[[timestamp: 2018-11-18T23:40:31.810Z][requestId:MjAxOC0xMS0xOFQyMzo0MDozMS44MTBaMjA0NDA1MjAyMw==] Starting GET@/posts as *
+2
+[{"content":"test","id":1},{"content":"again","id":2}]
+[timestamp: 2018-11-18T23:40:33.781Z][requestId:MjAxOC0xMS0xOFQyMzo0MDozMy43ODFaMTQwMzg5MDc2Ng==] Starting GET@/posts as *
+2
+[{"content":"test","id":1},{"content":"again","id":2}]
+]]></system-out>
+    <system-err><![CDATA[log4j:WARN No appenders could be found for logger (io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Nov 18, 2018 5:40:27 PM io.vertx.ext.asyncsql.impl.MYSQLClientImpl
+INFO: Creating configuration for 0.0.0.0:3306
+]]></system-err>
+  </testcase>
+</testsuite>

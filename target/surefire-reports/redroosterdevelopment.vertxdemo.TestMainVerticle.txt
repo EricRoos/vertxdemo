@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: redroosterdevelopment.vertxdemo.TestMainVerticle
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 10.262 s <<< FAILURE! - in redroosterdevelopment.vertxdemo.TestMainVerticle
+start_http_server{Vertx, VertxTestContext}  Time elapsed: 10.258 s  <<< ERROR!
+java.util.concurrent.TimeoutException: The test execution timed out
+
